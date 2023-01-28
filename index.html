@@ -29,13 +29,13 @@
     <main class="container">
       <div class="bg"></div>
       <div class="title">
-        <h1>CGPA Result Forecaster</h1>
+        <h1>GPA ni hisoblas</h1>
         <p>
-          Calculate your GPA and CGPA score then from your current score
-          forecast the average estimate score to end up with a 1st, 2nd
-          upper/lower class.
+          O'zingizning GPA va CGPA ballaringizni, keyin esa joriy balingizdan hisoblang
+          o'rtacha taxminiy ballni 1-, 2-o'rinlar bilan yakunlashini prognoz qiling
+          yuqori / quyi sinf.
         </p>
-        <button class="help">Need help?</button>
+        <button class="help">Yordam kerakmi?</button>
       </div>
 
       <div class="overall-output">
@@ -47,21 +47,21 @@
           <section class="calc__main">
             <div class="calc__main__heading">
               <h2>
-                <span class="semester">1st</span> Semester -
-                <span class="level">1</span>00L
+                <span class="semester">1chi</span> Semester
+                <span class="level"></span>
               </h2>
 
               <div>
-                <label for="numAdd">Enter Number of courses to be added:</label>
+                <label for="numAdd">Fanlar sonini kiriting:</label>
                 <input type="number" name="numAdd" class="numAdd" value="2" />
               </div>
             </div>
 
             <div class="display">
               <div class="display__heading">
-                <h3>Course Code</h3>
-                <h3>Credit Unit</h3>
-                <h3>Grade</h3>
+                <h3>Fan nomi</h3>
+                <h3>Kreditlari soni</h3>
+                <h3>Baho</h3>
               </div>
 
               <div class="display__output">
@@ -131,15 +131,15 @@
             </div>
 
             <div class="cal__btns">
-              <button class="add">Add</button>
-              <button class="calculate">Calculate</button>
-              <button class="undo">Undo</button>
+              <button class="add">Qo'shish</button>
+              <button class="calculate">Hisoblash</button>
+              <button class="undo">Bekor qilish</button>
             </div>
           </section>
 
           <section class="calc__display">
             <div>
-              <h3>Total Unit</h3>
+              <h3>Barcha kreditlar soni</h3>
               <p class="totalUnit">0</p>
             </div>
             <div>
@@ -153,10 +153,10 @@
           </section>
 
           <section class="resultContinue result__continue">
-            <h4>Would you like to calculate for another level?</h4>
+            <h4>Boshqa semestr uchun hisoblashni xohlaysizmi?</h4>
             <div>
-              <button class="yesBtn">Yes</button>
-              <button class="noBtn">No - Forecast Score</button>
+              <button class="yesBtn">Ha</button>
+              <button class="noBtn">Yo'q</button>
             </div>
           </section>
 
@@ -166,7 +166,7 @@
 
           <div class="modal-bg">
             <div class="modal">
-              <h2>Please fill the form</h2>
+              <h2>Iltimos formani to'ldiring</h2>
               <p id="formError"></p>
               <form action="/" method="GET">
                 <div>
@@ -230,10 +230,7 @@
                     <b>&star;</b> After calculation, a pop up will appear.
                   </li>
                   <li>
-                    <b>&star;</b> If you want to calculate your GPA/CGPA for
-                    another semester, simply click on <span>Yes</span>, else
-                    click on <span>No - Forecast Score</span> to display your
-                    average score to end up with a 1st, 2nd upper/lower class.
+                    <b>&star;</b> Agar siz boshqa semestr uchun GPA/CGPA ni hisoblamoqchi bo'lsangiz,<span>Ha</span> bosing  yoki <span>Yo'q</span>
                   </li>
                 </ul>
               </div>
